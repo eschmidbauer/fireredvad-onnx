@@ -1,0 +1,18 @@
+[project]
+name = "fireredvad-onnx"
+version = "0.1.0"
+description = "FireRedVAD streaming voice activity detection over WebSocket using ONNX Runtime"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "onnxruntime",
+    "websockets",
+    "kaldiio",
+    "kaldi-native-fbank",
+    "soundfile",
+    "pyaudio",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
